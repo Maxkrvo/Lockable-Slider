@@ -1,0 +1,57 @@
+ .action-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    --padding-start: 0;
+    --padding-end: 0;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+}
+
+.productLabel {
+    left: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: inline-flex;
+    padding: 5px;    
+    font-size: 12px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.slide-image  {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    position: relative;
+}
+
+.slider-grid, .slider-col > div, .slider-col > div > .container {
+    height: 100%;
+}
+
+.slider-grid {
+    background-color: white;
+}
+
+.slider-row:nth-child(1) {
+    height: 12.5%;
+}
+
+.slider-row:nth-child(2) {
+    height: 25%;
+}
+
+.slider-row:nth-child(3) {
+    height: 37.5%;
+}
+
+.slider-row:nth-child(4) {
+    height: 25%;
+}

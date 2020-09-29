@@ -1,0 +1,7 @@
+{
+  "name": "swipestyle-slider-v2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
