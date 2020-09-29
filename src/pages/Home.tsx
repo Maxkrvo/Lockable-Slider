@@ -1,7 +1,7 @@
 import { IonContent, IonGrid, IonHeader, IonPage } from '@ionic/react';
 import React from 'react';
 import SliderRow from '../components/sliderRow/sliderRow';
-import { heads, pants, shoes, tops } from './data';
+import { heads, pants, shoes, tops } from './data'
 
 const Home: React.FC = () => {
   return (

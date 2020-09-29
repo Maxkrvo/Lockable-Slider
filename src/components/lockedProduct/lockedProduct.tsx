@@ -13,7 +13,6 @@ interface LockedProductProps {
 const LockedProduct: React.FC<LockedProductProps> = ({ lockedProduct, unlockProduct, openProduct }) => {
     return (
         <div className="locked-product-wrapper" onClick={() => unlockProduct()}>
-        <img style={{position: 'absolute', left: '-999px'}} alt={lockedProduct.name} src={lockedProduct.img_url} />
             <div className="overlay">
             <CreateAnimation
                     play

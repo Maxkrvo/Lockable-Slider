@@ -28,4 +28,5 @@ Due to a customer wanting a custom solution for a product slider I had to think 
 - Change the current working directory to the location where you want the cloned directory to be made.
 - Type git clone and then paste the URL you copied above. 'git clone https://github.com/Maxkrvo/Lockable-Slider.git'.
 - Press Enter and your local clone of the repository will be created.
-- Start the project by running 'ionic serve' inside the terminal (Make sure you are inside the folder of the repository).
+- Navigate to the project folder inside the terminal and run 'npm install'
+- After npm install is finished run 'ionic serve', this will open a new browser window with the slider inside.
